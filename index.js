@@ -13,8 +13,8 @@
 	var __ = i18n.__;
 
 	var STEPS_TEMPLATE = [
-		[ 'lucasr/scroll-parallax-step' ],
-		[ 'lucasr/scroll-parallax-step' ],
+		[ 'crixu/scroll-parallax-step' ],
+		[ 'crixu/scroll-parallax-step' ],
 	];
 
 	var HERO_TEMPLATE = [
@@ -151,7 +151,7 @@
 		} );
 	}
 
-	registerBlockType( 'lucasr/scroll-parallax-gallery', {
+	registerBlockType( 'crixu/scroll-parallax-gallery', {
 		edit: function ( props ) {
 			var attributes = props.attributes;
 			var setAttributes = props.setAttributes;
@@ -175,7 +175,7 @@
 			var stepsProps = useInnerBlocksProps(
 				{ className: 'spg-steps' },
 				{
-					allowedBlocks: [ 'lucasr/scroll-parallax-step' ],
+					allowedBlocks: [ 'crixu/scroll-parallax-step' ],
 					template: STEPS_TEMPLATE,
 					templateLock: false,
 				}
@@ -312,7 +312,7 @@
 		},
 	} );
 
-	registerBlockType( 'lucasr/scroll-parallax-step', {
+	registerBlockType( 'crixu/scroll-parallax-step', {
 		edit: function () {
 			var blockProps = useBlockProps( { className: 'spg-step' } );
 			var innerBlocksProps = useInnerBlocksProps( blockProps, {
@@ -332,7 +332,7 @@
 		},
 	} );
 
-	registerBlockType( 'lucasr/scroll-parallax-hero', {
+	registerBlockType( 'crixu/scroll-parallax-hero', {
 		edit: function ( props ) {
 			var attributes = props.attributes;
 			var setAttributes = props.setAttributes;

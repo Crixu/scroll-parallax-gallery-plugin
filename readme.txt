@@ -4,7 +4,7 @@ Tags: parallax, gallery, scroll, hero, scroll animation
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,9 @@ No. It has no external HTTP requests, no analytics, and stores nothing beyond th
 
 == Changelog ==
 
+= 1.0.2 =
+* Change: block namespace renamed from `lucasr/*` to `crixu/*` (e.g. `crixu/scroll-parallax-gallery`). This changes the block names stored in post content; only relevant before this plugin has been used to publish any content.
+
 = 1.0.1 =
 * Fix: the gallery block's front-end output was missing the fade-mask class present in the editor preview, so rotated image rows could overflow their column and overlap the steps text. The front-end markup now matches the editor.
 
@@ -67,6 +70,9 @@ No. It has no external HTTP requests, no analytics, and stores nothing beyond th
 * Initial release.
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Block namespace renamed from lucasr/* to crixu/*.
 
 = 1.0.1 =
 Fixes a front-end layout bug where the gallery image rows could overlap the steps column.

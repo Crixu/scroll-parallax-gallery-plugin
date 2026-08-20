@@ -1,13 +1,13 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "lucasr/scroll-parallax-gallery",
+	"name": "crixu/scroll-parallax-gallery",
 	"title": "Scroll Parallax Gallery",
 	"category": "media",
 	"icon": "images-alt2",
 	"description": "Rows of images that drift sideways at different speeds as the visitor scrolls the section into view.",
 	"keywords": [ "gallery", "parallax", "scroll", "images" ],
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"textdomain": "scroll-parallax-gallery",
 	"attributes": {
 		"rotation": {

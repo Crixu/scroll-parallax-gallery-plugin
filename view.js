@@ -16,7 +16,7 @@
 		}
 
 		var entries = Array.prototype.map.call( galleries, function ( gallery ) {
-			var steps = gallery.querySelectorAll( '.wp-block-lucasr-scroll-parallax-step' );
+			var steps = gallery.querySelectorAll( '.wp-block-crixu-scroll-parallax-step' );
 			gallery.style.setProperty( '--spg-steps-count', Math.max( steps.length, 1 ) );
 			return { gallery: gallery, steps: steps };
 		} );

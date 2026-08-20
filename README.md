@@ -6,9 +6,9 @@ Repo: https://github.com/Crixu/wp-scroll-parallax-gallery-plugin · Author: http
 
 ## Blocks
 
-- **Scroll Parallax Gallery** (`lucasr/scroll-parallax-gallery`) — a pinned, sticky frame with a parallax image gallery on one side and a scroll-driven sequence of narrative steps on the other.
-- **Scroll Parallax Hero** (`lucasr/scroll-parallax-hero`) — a hero section with parallax images drifting in the background behind any content you place on top.
-- **Scroll Step** (`lucasr/scroll-parallax-step`) — a single narrative step used inside the Gallery block; fades in as it becomes active.
+- **Scroll Parallax Gallery** (`crixu/scroll-parallax-gallery`) — a pinned, sticky frame with a parallax image gallery on one side and a scroll-driven sequence of narrative steps on the other.
+- **Scroll Parallax Hero** (`crixu/scroll-parallax-hero`) — a hero section with parallax images drifting in the background behind any content you place on top.
+- **Scroll Step** (`crixu/scroll-parallax-step`) — a single narrative step used inside the Gallery block; fades in as it becomes active.
 
 ## Requirements
 

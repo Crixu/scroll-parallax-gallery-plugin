@@ -1,10 +1,10 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "lucasr/scroll-parallax-step",
+	"name": "crixu/scroll-parallax-step",
 	"title": "Scroll Step",
 	"category": "text",
-	"parent": [ "lucasr/scroll-parallax-gallery" ],
+	"parent": [ "crixu/scroll-parallax-gallery" ],
 	"icon": "editor-ol",
 	"description": "One narrative step inside a Scroll Parallax Gallery block. Fades in as the visitor scrolls it into view.",
 	"textdomain": "scroll-parallax-gallery",

@@ -1,13 +1,13 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "lucasr/scroll-parallax-hero",
+	"name": "crixu/scroll-parallax-hero",
 	"title": "Scroll Parallax Hero",
 	"category": "media",
 	"icon": "cover-image",
 	"description": "A hero section with rows of images drifting sideways in the background as the visitor scrolls. Put any content on top.",
 	"keywords": [ "hero", "parallax", "scroll", "banner" ],
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"textdomain": "scroll-parallax-gallery",
 	"attributes": {
 		"rotation": {

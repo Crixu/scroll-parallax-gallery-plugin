@@ -3,7 +3,7 @@
  * Plugin Name: Scroll Parallax Gallery Block
  * Plugin URI: https://github.com/Crixu/wp-scroll-parallax-gallery-plugin
  * Description: A Gutenberg block with rows of images that drift sideways at different speeds as the visitor scrolls the section into view.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Requires at least: 6.5
  * Requires PHP: 7.4
  * Author: Lucas Radke
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 define( 'SPG_BLOCK_DIR', __DIR__ );
 define( 'SPG_BLOCK_URL', plugin_dir_url( __FILE__ ) );
-define( 'SPG_BLOCK_VERSION', '1.0.1' );
+define( 'SPG_BLOCK_VERSION', '1.0.2' );
 
 add_action( 'init', 'spg_register_block' );
 
