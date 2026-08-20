@@ -1,6 +1,6 @@
 === Scroll Parallax Gallery Block ===
 Contributors: crixu
-Tags: parallax, gallery, scroll, block, images
+Tags: parallax, gallery, scroll, hero, scroll animation
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -8,22 +8,23 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A Gutenberg block with rows of images that drift sideways at different speeds as the visitor scrolls the section into view.
+A parallax scrolling image gallery and hero background block for Gutenberg, with scroll-animated narrative steps built in.
 
 == Description ==
 
-Scroll Parallax Gallery Block adds three native blocks for building scroll-driven image sections without a page builder:
+Scroll Parallax Gallery Block adds three native Gutenberg blocks for building parallax scrolling image sections and hero banners without a page builder:
 
-* **Scroll Parallax Gallery** — a pinned, sticky frame with a parallax image gallery on one side and a scroll-driven sequence of narrative steps on the other.
-* **Scroll Parallax Hero** — a hero section with parallax images drifting in the background behind any content you place on top.
-* **Scroll Step** — a single narrative step used inside the Gallery block; fades in as it becomes active while scrolling.
+* **Scroll Parallax Gallery** — a pinned, sticky frame with a parallax scrolling image gallery on one side and a scroll-animated sequence of narrative steps on the other, for scrollytelling-style sections.
+* **Scroll Parallax Hero** — a hero section with rows of images drifting in the background as a parallax scrolling effect, with any content of your choosing placed on top.
+* **Scroll Step** — a single narrative step used inside the Gallery block; fades in with a scroll animation as it becomes active.
 
 Everything is configured from the block inspector: add images per row from the Media Library, set each row's scroll speed, and adjust rotation, frame height, and overlay darkness to taste. No build tools, no external services, no tracking, and no options stored outside of the block content itself.
 
 = Features =
 
-* Multiple independently-speed image rows per block, for a layered parallax effect.
-* Scroll-pinned narrative steps that highlight in sync with scroll position.
+* Multiple independently-speed image rows per block, for a layered parallax scrolling effect.
+* Scroll-pinned narrative steps with a fade-in scroll animation that highlights in sync with scroll position.
+* A dedicated hero block for parallax background images behind any heading, text, or button content.
 * Works with wide/full alignment, block gap, and color/spacing block supports.
 * Responsive: parallax and pinning are disabled below the mobile breakpoint in favor of a simple stacked layout.
 * No JavaScript framework or build step — plain enqueued scripts and CSS custom properties.
