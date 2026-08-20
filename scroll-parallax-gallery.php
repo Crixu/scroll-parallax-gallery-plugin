@@ -7,7 +7,7 @@
  * Requires at least: 6.5
  * Requires PHP: 7.4
  * Author: Lucas Radke
- * Author URI: https://lucas-radke.de/#plugins
+ * Author URI: https://crixu.blog/plugins
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: scroll-parallax-gallery
