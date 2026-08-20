@@ -2,6 +2,8 @@
 
 A Gutenberg block plugin with rows of images that drift sideways at different speeds as the visitor scrolls the section into view. No build step, no dependencies — just plain JS and CSS.
 
+Repo: https://github.com/Crixu/wp-scroll-parallax-gallery-plugin · Author: https://lucas-radke.de/#plugins
+
 ## Blocks
 
 - **Scroll Parallax Gallery** (`lucasr/scroll-parallax-gallery`) — a pinned, sticky frame with a parallax image gallery on one side and a scroll-driven sequence of narrative steps on the other.
