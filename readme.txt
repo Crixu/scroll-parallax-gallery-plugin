@@ -54,8 +54,8 @@ No. It has no external HTTP requests, no analytics, and stores nothing beyond th
 
 == Screenshots ==
 
-1. Scroll Parallax Gallery block with pinned steps in the block editor.
-2. Scroll Parallax Hero block with background image rows and overlay content.
+1. The Scroll Parallax Gallery block in the editor: two rows of images alongside scroll-driven narrative steps.
+2. The same gallery on the front end, mid-scroll: rows drifting sideways as the active step highlights.
 
 == Changelog ==
 
