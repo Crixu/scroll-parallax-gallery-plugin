@@ -1,5 +1,5 @@
 === Scroll Parallax Gallery Block ===
-Contributors: your-wporg-username
+Contributors: crixu
 Tags: parallax, gallery, scroll, block, images
 Requires at least: 6.5
 Tested up to: 7.1
