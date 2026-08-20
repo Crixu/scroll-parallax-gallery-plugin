@@ -293,7 +293,7 @@
 						{ className: 'spg-layout' },
 						el(
 							'div',
-							{ className: 'spg-media-col' },
+							{ className: 'spg-media-col spg-fade-mask' },
 							el( 'div', { className: 'spg-gallery' }, savedRows )
 						),
 						el(

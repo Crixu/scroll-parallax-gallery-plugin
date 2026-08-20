@@ -7,7 +7,7 @@
 	"icon": "cover-image",
 	"description": "A hero section with rows of images drifting sideways in the background as the visitor scrolls. Put any content on top.",
 	"keywords": [ "hero", "parallax", "scroll", "banner" ],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"textdomain": "scroll-parallax-gallery",
 	"attributes": {
 		"rotation": {

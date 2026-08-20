@@ -4,7 +4,7 @@ Tags: parallax, gallery, scroll, block, images
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,10 +59,13 @@ No. It has no external HTTP requests, no analytics, and stores nothing beyond th
 
 == Changelog ==
 
+= 1.0.1 =
+* Fix: the gallery block's front-end output was missing the fade-mask class present in the editor preview, so rotated image rows could overflow their column and overlap the steps text. The front-end markup now matches the editor.
+
 = 1.0.0 =
 * Initial release.
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-Initial release.
+= 1.0.1 =
+Fixes a front-end layout bug where the gallery image rows could overlap the steps column.
