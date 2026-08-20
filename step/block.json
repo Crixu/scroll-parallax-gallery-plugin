@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lucasr/scroll-parallax-step",
+	"title": "Scroll Step",
+	"category": "text",
+	"parent": [ "lucasr/scroll-parallax-gallery" ],
+	"icon": "editor-ol",
+	"description": "One narrative step inside a Scroll Parallax Gallery block. Fades in as the visitor scrolls it into view.",
+	"textdomain": "scroll-parallax-gallery",
+	"supports": {
+		"html": false,
+		"reusable": false,
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		}
+	},
+	"editorScript": "scroll-parallax-gallery-editor",
+	"style": "scroll-parallax-gallery-style"
+}

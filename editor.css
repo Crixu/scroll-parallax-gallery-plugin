@@ -1,0 +1,52 @@
+.spg-editor-thumbs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 8px 0;
+}
+
+.spg-editor-thumb {
+	width: 72px;
+	text-align: center;
+}
+
+.spg-editor-thumb img {
+	width: 100%;
+	height: 48px;
+	object-fit: cover;
+	border-radius: 4px;
+	display: block;
+	margin-bottom: 4px;
+}
+
+.editor-styles-wrapper .wp-block-lucasr-scroll-parallax-gallery {
+	height: auto;
+}
+
+.editor-styles-wrapper .wp-block-lucasr-scroll-parallax-gallery .spg-sticky {
+	position: static;
+	height: auto;
+}
+
+.editor-styles-wrapper .wp-block-lucasr-scroll-parallax-gallery .spg-layout {
+	height: auto;
+}
+
+.editor-styles-wrapper .wp-block-lucasr-scroll-parallax-gallery .spg-media-col {
+	position: static;
+	height: auto;
+}
+
+.editor-styles-wrapper .wp-block-lucasr-scroll-parallax-gallery .spg-steps {
+	position: static;
+	height: auto;
+}
+
+.editor-styles-wrapper .wp-block-lucasr-scroll-parallax-step {
+	position: static;
+	opacity: 1;
+	transform: none;
+	padding: 16px;
+	margin-bottom: 16px;
+	border: 1px dashed rgba( 0, 0, 0, 0.15 );
+}

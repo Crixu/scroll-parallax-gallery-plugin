@@ -1,0 +1,173 @@
+/* Shared parallax visuals, used by the gallery, hero, and any future block. */
+.spg-parallax-root .spg-gallery {
+	transform: rotate( var( --spg-rotation, -6deg ) );
+}
+
+.spg-parallax-root .spg-row {
+	display: flex;
+	gap: 24px;
+	margin-bottom: 24px;
+	transform: translate3d( calc( var( --spg-progress, 0 ) * var( --spg-speed, 1 ) * 100% ), 0, 0 );
+	will-change: transform;
+}
+
+.spg-parallax-root .spg-row img {
+	width: 320px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 8px;
+	flex: 0 0 auto;
+}
+
+/* Fades the left/right edges of a clipped row container instead of a hard cut. */
+.spg-fade-mask {
+	overflow: hidden;
+	-webkit-mask-image: linear-gradient( to right, transparent 0%, #000 15%, #000 85%, transparent 100% );
+	mask-image: linear-gradient( to right, transparent 0%, #000 15%, #000 85%, transparent 100% );
+}
+
+/* Gallery block: sticky pinned frame with a scrolling steps column. */
+.wp-block-lucasr-scroll-parallax-gallery {
+	position: relative;
+	height: calc( var( --spg-steps-count, 1 ) * var( --spg-step-vh, 100vh ) );
+}
+
+.wp-block-lucasr-scroll-parallax-gallery .spg-sticky {
+	position: sticky;
+	top: 0;
+	height: var( --spg-sticky-height, 100vh );
+	display: flex;
+	align-items: stretch;
+}
+
+.wp-block-lucasr-scroll-parallax-gallery .spg-layout {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: var( --wp--style--block-gap, 48px );
+	width: 100%;
+	height: 100%;
+}
+
+.wp-block-lucasr-scroll-parallax-gallery .spg-media-col {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.wp-block-lucasr-scroll-parallax-gallery .spg-steps-col {
+	display: flex;
+	gap: 32px;
+	height: 100%;
+}
+
+.wp-block-lucasr-scroll-parallax-gallery .spg-line {
+	position: relative;
+	flex: 0 0 auto;
+	width: 2px;
+	height: 100%;
+	background: rgba( 0, 0, 0, 0.1 );
+}
+
+.wp-block-lucasr-scroll-parallax-gallery .spg-line-fill {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: calc( var( --spg-progress, 0 ) * 100% );
+	background: currentColor;
+}
+
+.wp-block-lucasr-scroll-parallax-gallery .spg-steps {
+	position: relative;
+	flex: 1 1 auto;
+	height: 100%;
+}
+
+.wp-block-lucasr-scroll-parallax-step {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	opacity: 0;
+	transform: translateY( 16px );
+	transition: opacity 0.4s ease, transform 0.4s ease;
+	pointer-events: none;
+}
+
+.wp-block-lucasr-scroll-parallax-step.is-active {
+	opacity: 1;
+	transform: translateY( 0 );
+	pointer-events: auto;
+}
+
+@media ( max-width: 782px ) {
+	.wp-block-lucasr-scroll-parallax-gallery {
+		height: auto;
+	}
+
+	.wp-block-lucasr-scroll-parallax-gallery .spg-sticky {
+		position: static;
+		height: auto;
+	}
+
+	.wp-block-lucasr-scroll-parallax-gallery .spg-layout {
+		grid-template-columns: 1fr;
+		height: auto;
+	}
+
+	.wp-block-lucasr-scroll-parallax-gallery .spg-media-col,
+	.wp-block-lucasr-scroll-parallax-gallery .spg-steps-col,
+	.wp-block-lucasr-scroll-parallax-gallery .spg-steps {
+		height: auto;
+	}
+
+	.wp-block-lucasr-scroll-parallax-step {
+		position: static;
+		opacity: 1;
+		transform: none;
+		padding: 32px 0;
+	}
+}
+
+/* Hero block: background rows behind free-form content. */
+.wp-block-lucasr-scroll-parallax-hero {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 60vh;
+	text-align: center;
+	color: #fff;
+}
+
+.wp-block-lucasr-scroll-parallax-hero .spg-gallery-mask {
+	position: absolute;
+	inset: 0;
+}
+
+.wp-block-lucasr-scroll-parallax-hero .spg-gallery {
+	position: absolute;
+	top: -30%;
+	left: -30%;
+	width: 160%;
+	height: 160%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.wp-block-lucasr-scroll-parallax-hero .spg-hero-overlay {
+	position: absolute;
+	inset: 0;
+	background: #000;
+	opacity: var( --spg-overlay-opacity, 0.4 );
+	pointer-events: none;
+}
+
+.wp-block-lucasr-scroll-parallax-hero .spg-hero-content {
+	position: relative;
+	z-index: 1;
+	max-width: 720px;
+	padding: 48px 24px;
+}

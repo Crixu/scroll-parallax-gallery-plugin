@@ -1,0 +1,46 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lucasr/scroll-parallax-hero",
+	"title": "Scroll Parallax Hero",
+	"category": "media",
+	"icon": "cover-image",
+	"description": "A hero section with rows of images drifting sideways in the background as the visitor scrolls. Put any content on top.",
+	"keywords": [ "hero", "parallax", "scroll", "banner" ],
+	"version": "1.0.0",
+	"textdomain": "scroll-parallax-gallery",
+	"attributes": {
+		"rotation": {
+			"type": "number",
+			"default": -6
+		},
+		"rows": {
+			"type": "array",
+			"default": [
+				{ "speed": -0.4, "images": [] },
+				{ "speed": 0.3, "images": [] },
+				{ "speed": -0.2, "images": [] }
+			]
+		},
+		"overlayOpacity": {
+			"type": "number",
+			"default": 40
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"dimensions": {
+			"minHeight": true
+		},
+		"spacing": {
+			"padding": true,
+			"blockGap": true,
+			"units": [ "px", "em", "rem", "%", "vh" ]
+		}
+	},
+	"editorScript": "scroll-parallax-gallery-editor",
+	"editorStyle": "scroll-parallax-gallery-editor-style",
+	"style": "scroll-parallax-gallery-style",
+	"viewScript": "scroll-parallax-gallery-view"
+}
