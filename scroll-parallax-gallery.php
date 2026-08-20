@@ -4,9 +4,12 @@
  * Plugin URI: https://github.com/Crixu/wp-scroll-parallax-gallery-plugin
  * Description: A Gutenberg block with rows of images that drift sideways at different speeds as the visitor scrolls the section into view.
  * Version: 1.0.0
+ * Requires at least: 6.5
+ * Requires PHP: 7.4
  * Author: Lucas Radke
  * Author URI: https://lucas-radke.de/#plugins
  * License: GPL-2.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: scroll-parallax-gallery
  */
 
