@@ -1,10 +1,10 @@
-=== Scroll Parallax Gallery Block ===
+=== Scroll Parallax Gallery ===
 Contributors: crixu
 Tags: parallax, gallery, scroll, hero, scroll animation
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ A parallax scrolling image gallery and hero background block for Gutenberg, with
 
 == Description ==
 
-Scroll Parallax Gallery Block adds three native Gutenberg blocks for building parallax scrolling image sections and hero banners without a page builder:
+Scroll Parallax Gallery adds three native Gutenberg blocks for building parallax scrolling image sections and hero banners without a page builder:
 
 * **Scroll Parallax Gallery** — a pinned, sticky frame with a parallax scrolling image gallery on one side and a scroll-animated sequence of narrative steps on the other, for scrollytelling-style sections.
 * **Scroll Parallax Hero** — a hero section with rows of images drifting in the background as a parallax scrolling effect, with any content of your choosing placed on top.
@@ -60,6 +60,9 @@ No. It has no external HTTP requests, no analytics, and stores nothing beyond th
 
 == Changelog ==
 
+= 1.0.4 =
+* Fix: Plugin Name changed from "Scroll Parallax Gallery Block" to "Scroll Parallax Gallery" so the wp.org-assigned slug matches the Text Domain already used throughout the code (Plugin Check flagged the mismatch during submission).
+
 = 1.0.3 =
 * Change: Plugin URI and README updated to the renamed repository (github.com/crixu/scroll-parallax-gallery-plugin — dropped the banned "wp" term from the repo name).
 
@@ -73,6 +76,9 @@ No. It has no external HTTP requests, no analytics, and stores nothing beyond th
 * Initial release.
 
 == Upgrade Notice ==
+
+= 1.0.4 =
+Plugin renamed from "Scroll Parallax Gallery Block" to "Scroll Parallax Gallery" to fix a slug/text-domain mismatch.
 
 = 1.0.3 =
 Housekeeping only: Plugin URI points at the renamed repo.

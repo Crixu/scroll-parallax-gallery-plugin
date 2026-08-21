@@ -1,4 +1,4 @@
-# Scroll Parallax Gallery Block
+# Scroll Parallax Gallery
 
 A Gutenberg block plugin for parallax scrolling image galleries and hero backgrounds: rows of images drift sideways at different speeds as the visitor scrolls the section into view, paired with scroll-animated narrative steps. No build step, no dependencies — just plain JS and CSS.
 
@@ -18,7 +18,7 @@ Repo: https://github.com/Crixu/scroll-parallax-gallery-plugin · Author: https:/
 ## Installation
 
 1. Download or clone this repository into `wp-content/plugins/scroll-parallax-gallery`.
-2. Activate **Scroll Parallax Gallery Block** from the Plugins screen.
+2. Activate **Scroll Parallax Gallery** from the Plugins screen.
 3. Add the "Scroll Parallax Gallery" or "Scroll Parallax Hero" block from the block inserter.
 
 ## Usage

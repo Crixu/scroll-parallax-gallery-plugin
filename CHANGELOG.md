@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+- Fix: Plugin Name changed from "Scroll Parallax Gallery Block" to "Scroll Parallax Gallery" so the wp.org-assigned slug matches the `Text Domain` already used throughout the code.
+
 ## 1.0.3
 
 - Change: Plugin URI and README updated to the renamed repository (github.com/crixu/scroll-parallax-gallery-plugin).
