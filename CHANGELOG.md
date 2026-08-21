@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+- Change: Plugin URI and README updated to the renamed repository (github.com/crixu/scroll-parallax-gallery-plugin).
+
 ## 1.0.2
 
 - Change: block namespace renamed from `lucasr/*` to `crixu/*` (`crixu/scroll-parallax-gallery`, `crixu/scroll-parallax-hero`, `crixu/scroll-parallax-step`).

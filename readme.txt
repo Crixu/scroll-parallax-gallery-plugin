@@ -4,7 +4,7 @@ Tags: parallax, gallery, scroll, hero, scroll animation
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,9 @@ No. It has no external HTTP requests, no analytics, and stores nothing beyond th
 
 == Changelog ==
 
+= 1.0.3 =
+* Change: Plugin URI and README updated to the renamed repository (github.com/crixu/scroll-parallax-gallery-plugin — dropped the banned "wp" term from the repo name).
+
 = 1.0.2 =
 * Change: block namespace renamed from `lucasr/*` to `crixu/*` (e.g. `crixu/scroll-parallax-gallery`). This changes the block names stored in post content; only relevant before this plugin has been used to publish any content.
 
@@ -70,6 +73,9 @@ No. It has no external HTTP requests, no analytics, and stores nothing beyond th
 * Initial release.
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+Housekeeping only: Plugin URI points at the renamed repo.
 
 = 1.0.2 =
 Block namespace renamed from lucasr/* to crixu/*.
